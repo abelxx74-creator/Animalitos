@@ -1,52 +1,88 @@
-body {
-    margin: 0;
-    font-family: sans-serif;
-    background: #B5E8C3;
-    color: #3B2F1F;
+/* Estilos inspirados en tu flyer: colores suaves rosados, pastel, redondeados */
 }
 
-header {
-    background: #A2DAB4;
-    padding: 20px;
-    text-align: center;
+
+.nav-links a {
+text-decoration: none;
+color: white;
+font-weight: bold;
 }
 
-.logo {
-    font-size: 32px;
-    font-weight: bold;
-    margin: 0;
-}
-
-nav a {
-    margin: 0 12px;
-    text-decoration: none;
-    color: #3B2F1F;
-    font-weight: bold;
-}
 
 .hero {
-    padding: 60px;
-    text-align: center;
+background: linear-gradient(#ffb8d1, #ffdce9);
+padding: 80px 20px;
+text-align: center;
 }
 
-.content {
-    padding: 40px;
+
+.hero-content h2 {
+font-size: 48px;
+color: white;
 }
 
-.product, .price-list li {
-    background: #A2DAB4;
-    padding: 20px;
-    margin: 15px 0;
-    border-radius: 10px;
+
+.btn {
+background: #ff78a4;
+padding: 12px 24px;
+color: white;
+border-radius: 20px;
+text-decoration: none;
+font-weight: bold;
 }
 
-.whatsapp-btn {
-    background: #25D366;
-    padding: 15px 25px;
-    color: white;
-    text-decoration: none;
-    border-radius: 10px;
-    display: inline-block;
-    margin-top: 20px;
-    font-weight: bold;
+
+.product-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap: 20px;
+padding: 20px;
+}
+
+
+.product-card {
+background: white;
+padding: 20px;
+border-radius: 20px;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+text-align: center;
+}
+
+
+.product-card img {
+width: 100%;
+border-radius: 20px;
+}
+
+
+.price-card {
+background: white;
+width: 300px;
+margin: auto;
+padding: 20px;
+text-align: center;
+border-radius: 20px;
+margin-top: 20px;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+
+.price {
+font-size: 32px;
+color: #ff4f8b;
+}
+
+
+.contact-section {
+padding: 40px;
+text-align: center;
+}
+
+
+footer {
+background: #ffb8d1;
+padding: 20px;
+margin-top: 40px;
+text-align: center;
+color: white;
 }
