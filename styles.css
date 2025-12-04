@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: #B5E8C3;
+    color: #3B2F1F;
+}
+
+header {
+    background: #A2DAB4;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+}
+
+nav a {
+    margin: 0 12px;
+    text-decoration: none;
+    color: #3B2F1F;
+    font-weight: bold;
+}
+
+.hero {
+    padding: 60px;
+    text-align: center;
+}
+
+.content {
+    padding: 40px;
+}
+
+.product, .price-list li {
+    background: #A2DAB4;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+
+.whatsapp-btn {
+    background: #25D366;
+    padding: 15px 25px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 20px;
+    font-weight: bold;
+}
